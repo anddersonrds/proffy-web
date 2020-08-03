@@ -1,13 +1,16 @@
 import React from 'react';
 
-import './assets/styles/global.css';
+import Landing from './pages/Landing';
 
-function App() {
+import GlobalStyles from './styles/global';
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello world!</h1>
-    </div>
+    <>
+      <Landing />
+      <GlobalStyles />
+    </>
   );
-}
+};
 
 export default App;
